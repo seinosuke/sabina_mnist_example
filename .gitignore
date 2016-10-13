@@ -1,0 +1,4 @@
+/.bundle/
+/Gemfile.lock
+/bin/data/*
+!.mp_rb.db
