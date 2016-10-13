@@ -33,10 +33,10 @@
 
 ## 使い方
 ### 数字を書く
-マウス左ボタンで線を描き、右ボタンが消しゴムです。
+マウス左ボタンで線を描き、右ボタンで線を消します。  
 CLEARボタンは何も書かれていない状態に戻します。
 
 ![sabina_demo_02.gif](https://github.com/seinosuke/sabina_mnist_example/blob/master/images/sabina_demo_02.gif)
 
 ### 認識
-STARTで認識開始、RESETでもう一度数字を書くところから始めます。
+STARTボタンで認識開始、RESETボタンで数字を書く段階に戻します。
