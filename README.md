@@ -1,6 +1,8 @@
-# sabina_mnist_example.rb
+# sabina_mnist_example
 これは Ruby gem の [sabina](https://github.com/seinosuke/sabina) による手書き数字認識のサンプルです。  
 学習に用いるデータはMNISTで、多層パーセプトロンによる識別を行います。
+
+![sabina_demo_01.gif](https://github.com/seinosuke/sabina_mnist_example/blob/master/images/sabina_demo_01.gif)
 
 ## 動作環境
 * Ubuntu 16.04
@@ -11,12 +13,12 @@
 にて動作を確認しました。  
 必要なgemのインストールは以下のコマンドで行います。
 
-  $ bundle install
+    $ bundle install
 
 ## GUI起動までの手順
 既に学習済みの重みをbin/data/以下にサンプルとして置いてあるので、必要なgem等がインストールできたら
 
-  $ ruby bin/main.rb
+    $ ruby bin/main.rb
 
 で直ちに手書き数字認識用のGUIが起動します。  
 
@@ -33,6 +35,8 @@
 ### 数字を書く
 マウス左ボタンで線を描き、右ボタンが消しゴムです。
 CLEARボタンは何も書かれていない状態に戻します。
+
+![sabina_demo_02.gif](https://github.com/seinosuke/sabina_mnist_example/blob/master/images/sabina_demo_02.gif)
 
 ### 認識
 STARTで認識開始、RESETでもう一度数字を書くところから始めます。
